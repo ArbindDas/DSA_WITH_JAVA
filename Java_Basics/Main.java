@@ -122,6 +122,9 @@ public class Main {
         return new int[]{first, second};
     }
 
+
+  
+
     //    *5. Create a calculator in Java that takes two numbers and an operator (+, -, , /) as input and returns the result.
     public static void cal ( ) {
         Scanner sc = new Scanner ( System.in );
