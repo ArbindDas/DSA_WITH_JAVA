@@ -63,6 +63,21 @@ public class Main {
         System.out.println ("After converting : Dec  : "+ornum + " into octal : => "+ans);
     }
 
+
+    public static  void octaltodec(){
+        int num = readInt ( "Enter the octal number : to be converted into : => Dec" );
+        int ornum = num;
+        int rem , ans = 0  , mul = 1;
+        while (num!=0){
+            rem = num % 10;
+            num/=10;
+            ans =  rem * mul + ans;
+            mul*=8;
+        }
+
+        System.out.println ("After converting : Octal  : "+ornum + " into Decimal : => "+ans);
+    }
+
     public static void main ( String[] args ) {
 
 
@@ -81,6 +96,8 @@ public class Main {
                 }
 
                 case "dectooctal" -> dectooctal();
+
+                case  "octaltodec" -> octaltodec();
 
                 case "exit" -> {
                     System.out.println ( "Exiting...." );
