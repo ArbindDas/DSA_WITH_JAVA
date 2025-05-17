@@ -22,7 +22,7 @@ public class Main {
 
     public static void dectobin ( ) {
 
-        int num = readInt ( "Enter the number to be converted in Bin" );
+        int num = readInt ( "Enter the Dec number to be converted in Bin" );
         int ornum = num;
 
         int ans = 0, rem, mul = 1;
@@ -37,7 +37,7 @@ public class Main {
 
     }
     public static void bintodec(){
-        int num = readInt ( "Enter the number to be converted into Decimal :" );
+        int num = readInt ( "Enter the bin number to be converted into Decimal :" );
         int ornum = num;
         int rem , ans = 0 , mul = 1;
         while (num!=0){
@@ -48,6 +48,19 @@ public class Main {
         }
         System.out.println ("After converting : Bin  : "+ornum + " into decimal : => "+ans);
 
+    }
+
+    public static void dectooctal(){
+        int num = readInt ( "Enter the number to be converted into octal" );
+        int ornum = num;
+        int rem , ans = 0 , mul = 1;
+        while (num!=0){
+            rem =num % 8;
+            num/=8;
+            ans = rem * mul + ans;
+            mul*=10;
+        }
+        System.out.println ("After converting : Dec  : "+ornum + " into octal : => "+ans);
     }
 
     public static void main ( String[] args ) {
@@ -66,6 +79,8 @@ public class Main {
                 case "bintodec"->{
                     bintodec ();
                 }
+
+                case "dectooctal" -> dectooctal();
 
                 case "exit" -> {
                     System.out.println ( "Exiting...." );
