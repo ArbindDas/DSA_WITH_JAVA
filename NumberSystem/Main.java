@@ -36,6 +36,19 @@ public class Main {
         System.out.println ( "After converting  : Dec " + ornum + " into Binary -> " + ans );
 
     }
+    public static void bintodec(){
+        int num = readInt ( "Enter the number to be converted into Decimal :" );
+        int ornum = num;
+        int rem , ans = 0 , mul = 1;
+        while (num!=0){
+            rem = num % 10;
+            num = num/10;
+            ans = rem * mul + ans;
+            mul*=2;
+        }
+        System.out.println ("After converting : Bin  : "+ornum + " into decimal : => "+ans);
+
+    }
 
     public static void main ( String[] args ) {
 
@@ -48,6 +61,10 @@ public class Main {
             switch (message) {
                 case "dectobin" -> {
                     dectobin ();
+                }
+
+                case "bintodec"->{
+                    bintodec ();
                 }
 
                 case "exit" -> {
