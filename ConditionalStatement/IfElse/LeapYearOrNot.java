@@ -10,11 +10,12 @@ public class LeapYearOrNot
         int year = sc.nextInt();
         isLeapYearOrNot(year);
     }
-    public static void isLeapYearOrNot(int year){
-        if (year%4==0 && year%100!=0 || year%400==0){
-            System.out.println("it is leap year : "+year);
-        }else {
-            System.out.println("this is not leap year : "+year);
+    public static void isLeapYearOrNot(int year) {
+        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+            System.out.println("It is a leap year: " + year);
+        } else {
+            System.out.println("This is not a leap year: " + year);
         }
     }
+
 }
