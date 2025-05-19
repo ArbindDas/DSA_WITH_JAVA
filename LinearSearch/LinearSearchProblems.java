@@ -399,6 +399,41 @@ public class LinearSearchProblems {
             System.out.println (value);
         }
     }
+    public static  void  sumOfArray(){
+        int num = readInt ("enter the size of array");
+        int[] arr = new int[num];
+
+        System.out.println ("enter the values in the array ");
+        for (int i = 0 ; i < arr.length ; i++) {
+            arr[i] = sc.nextInt ();
+        }
+
+        printArray (arr);
+        int sum = 0;
+        System.out.println ("sum of array is ");
+        for (int i = 0 ; i < arr.length; i++) {
+            sum+=arr[i];
+        }
+
+        System.out.println ("the total sum of your array is : "+sum);
+    }
+    public static void productOfArray(){
+        int num = readInt ("enter the size of array");
+        int[] arr = new int[num];
+
+        System.out.println ("enter the values in the array ");
+        for (int i = 0 ; i < arr.length ; i++) {
+            arr[i] = sc.nextInt ();
+        }
+
+        printArray (arr);
+        int product = 1;
+        System.out.println ("product of array is ");
+        for (int i = 0 ; i < arr.length; i++) {
+            product*=arr[i];
+        }
+        System.out.println ("the total product of array is : "+product);
+    }
 
     public static void main ( String[] args ) {
         while (true) {
@@ -433,7 +468,9 @@ public class LinearSearchProblems {
                 case 13 -> copyReverse ();
                 case 14 -> ascendingOrderArray ();
                 case 15 -> descendingOrderArray ();
-                case 16 -> {
+                case 16 -> sumOfArray();
+                case 17 -> productOfArray();
+                case 18-> {
                     System.out.println ("Exiting program...");
                     return;
                 }
@@ -460,9 +497,10 @@ public class LinearSearchProblems {
         System.out.println ("13. Copy Array in Reverse");
         System.out.println ("14. ascendingOrderArray");
         System.out.println ("15.descendingOrderArray ");
-        System.out.println ("16. Exit");
+        System.out.println ("16.sumOfArray ");
+        System.out.println ("17.productOfArray ");
+        System.out.println ("18. Exit");
         System.out.println ("===============================");
     }
-
 }
 
