@@ -7,6 +7,8 @@
     <list default="true" id="9ffb0a2b-65ba-4dbd-9431-a645f403f296" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinearSearch/printArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinearSearch/printArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/LinearSearch/printArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/LinearSearch/printArray.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,20 +134,5 @@
       <updated>1746861979600</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/LinearSearch/printArray.java</url>
-          <line>198</line>
-          <properties class="DSA.LinearSearch.printArray" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
