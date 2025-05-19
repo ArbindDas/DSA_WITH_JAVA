@@ -37,6 +37,7 @@
     "Application.LeapYearOrNot.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ReverseANumber.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.fibonnaciSer.executor": "Run",
     "Application.printArray.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -60,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeapYearOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.ConditionalStatement.IfElse.LeapYearOrNot" />
+    <configuration name="ReverseANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.Loops.WhileLoop.ReverseANumber" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.ConditionalStatement.IfElse.*" />
+          <option name="PATTERN" value="DSA.Loops.WhileLoop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.Loops.WhileLoop.ReverseANumber" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.Loops.SimpleLetcodeProblem.Test" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.Loops.WhileLoop.*" />
+          <option name="PATTERN" value="DSA.Loops.SimpleLetcodeProblem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,10 +116,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.printArray" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.fibonnaciSer" />
         <item itemvalue="Application.DSA.Loops.SimpleLetcodeProblem.Main" />
         <item itemvalue="Application.ReverseANumber" />
-        <item itemvalue="Application.LeapYearOrNot" />
       </list>
     </recent_temporary>
   </component>
@@ -131,5 +132,20 @@
       <updated>1746861979600</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/LinearSearch/printArray.java</url>
+          <line>198</line>
+          <properties class="DSA.LinearSearch.printArray" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

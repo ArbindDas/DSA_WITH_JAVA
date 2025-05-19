@@ -1,6 +1,8 @@
 package DSA.LinearSearch;
 
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 public class printArray {
 
@@ -113,7 +115,6 @@ public class printArray {
         int secMax = Integer.MIN_VALUE;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > fmax) {
-                secMax = fmax;
                 fmax = arr[i];
             }else if (arr[i] > secMax && arr[i] != fmax) {
                 secMax = arr[i];
@@ -143,6 +144,58 @@ public class printArray {
         }
     }
 
+    public static void findMissingNumber(){
+        int num = readInt ("Enter the size of array :");
+        int []arr = new int[num-15];
+
+
+        System.out.println ("Enter the elements in the array : ");
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = sc.nextInt ();
+        }
+        System.out.println ("the given array is : ");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println (arr[i]);
+        }
+        
+
+        int presentNumber = 0;
+        int total = num*(num+1)/2;
+        for (int i = 0; i < arr.length; i++) {
+             presentNumber  = presentNumber+arr[i];
+        }
+        
+        int missing = total - presentNumber;
+        System.out.println ("the missing number is : "+missing);
+
+    }
+
+
+    public static void findMissingNumberTwo() {
+        int num = readInt("Enter the size of array:");
+        int[] arr = new int[num - 1];
+        Set<Integer> integerSet = new HashSet<>();
+
+        System.out.println("Enter " + (num - 1) + " values from 1 to " + num + " (no duplicates):");
+
+        int total = num * (num + 1) / 2;
+        int actualSum = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            int val = sc.nextInt();
+            if (val < 1 || val > num || integerSet.contains(val)) {
+                System.out.println("Invalid input: enter values between 1 to " + num + " without duplicates.");
+                return;
+            }
+            integerSet.add(val);
+            actualSum += val;
+        }
+
+        int missing = total - actualSum;
+        System.out.println("The missing number is: " + missing);
+    }
+
+
     public static void main ( String[] args ) {
 
 //        inputArray ();
@@ -154,5 +207,7 @@ public class printArray {
 //        findSecMax ();
 //        isFib ();
 //        fib ();
+//        findMissingNumber();
+//        findMissingNumberTwo ();
     }
 }
