@@ -21,7 +21,7 @@ public class LinearSearchProblems {
 
     public static int[] printArray ( int arr[] ) {
         System.out.print ("Your Array : ");
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0 ; i < arr.length ; i++) {
             System.out.print (" " + arr[i]);
         }
         System.out.println ();
@@ -33,7 +33,7 @@ public class LinearSearchProblems {
         int[] arr = new int[n];
         int lengthOfArr = arr.length;
         System.out.println ("enter the elements in the array : ");
-        for (int i = 0; i < lengthOfArr; i++) {
+        for (int i = 0 ; i < lengthOfArr ; i++) {
             arr[i] = sc.nextInt ();
         }
         System.out.println ();
@@ -47,7 +47,7 @@ public class LinearSearchProblems {
         int[] arr = new int[] {4 , 2 , 5 , 1 , 3};
         int min = arr[0];
         int max = arr[0];
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0 ; i < arr.length ; i++) {
             if (arr[i] < min) {
                 min = arr[i];
             }
@@ -66,7 +66,7 @@ public class LinearSearchProblems {
         int search = readInt ("Enter the value to be search");
         boolean find = false;
         int value = - 1;
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0 ; i < arr.length ; i++) {
             if (arr[i] == search) {
                 value = i;
                 find = true;
@@ -98,7 +98,7 @@ public class LinearSearchProblems {
 
         reverseArray (0 , arr.length - 1 , arr);
         System.out.println ("after reverse your array is : ");
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0 ; i < arr.length ; i++) {
             System.out.print (" " + arr[i]);
         }
     }
@@ -113,7 +113,7 @@ public class LinearSearchProblems {
 
         int fmax = Integer.MIN_VALUE;
         int secMax = Integer.MIN_VALUE;
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0 ; i < arr.length ; i++) {
             if (arr[i] > fmax) {
                 fmax = arr[i];
             }else if (arr[i] > secMax && arr[i] != fmax) {
@@ -135,7 +135,7 @@ public class LinearSearchProblems {
         int[] arr = new int[5];
         arr[0] = 0;
         arr[1] = 1;
-        for (int i = 2; i < arr.length; i++) {
+        for (int i = 2 ; i < arr.length ; i++) {
             arr[i] = arr[i - 1] + arr[i - 2];
         }
 
@@ -150,18 +150,18 @@ public class LinearSearchProblems {
 
 
         System.out.println ("Enter the elements in the array : ");
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0 ; i < arr.length ; i++) {
             arr[i] = sc.nextInt ();
         }
         System.out.println ("the given array is : ");
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0 ; i < arr.length ; i++) {
             System.out.println (arr[i]);
         }
 
 
         int presentNumber = 0;
         int total = num * ( num + 1 ) / 2;
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0 ; i < arr.length ; i++) {
             presentNumber = presentNumber + arr[i];
         }
 
@@ -181,7 +181,7 @@ public class LinearSearchProblems {
         int total = num * ( num + 1 ) / 2;
         int actualSum = 0;
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0 ; i < arr.length ; i++) {
             int val = sc.nextInt ();
             if (val < 1 || val > num || integerSet.contains (val)) {
                 System.out.println ("Invalid input: enter values between 1 to " + num + " without duplicates.");
@@ -200,7 +200,7 @@ public class LinearSearchProblems {
         int[] arr = new int[num];
 
         System.out.println ("Enter the elements in the array");
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0 ; i < arr.length ; i++) {
             arr[i] = sc.nextInt ();
         }
 
@@ -212,13 +212,13 @@ public class LinearSearchProblems {
         }
 
         int[] rev = new int[num];
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0 ; i < arr.length ; i++) {
             rev[i] = arr[i];
         }
 
         reverseArray (0 , arr.length - 1 , arr);
         boolean ispal = true;
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0 ; i < arr.length ; i++) {
             if (arr[i] != rev[i]) {
                 ispal = false;
                 break;
@@ -237,8 +237,8 @@ public class LinearSearchProblems {
         int dup = - 1;
 
         boolean isDuplicate = false;
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = i + 1; j < arr.length; j++) {
+        for (int i = 0 ; i < arr.length ; i++) {
+            for (int j = i + 1 ; j < arr.length ; j++) {
                 if (arr[j] == arr[i]) {
                     isDuplicate = true;
                     dup = i;
@@ -261,9 +261,9 @@ public class LinearSearchProblems {
         int dup = - 1;
 
         boolean isUnique = false;
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0 ; i < arr.length ; i++) {
             boolean isDuplicate = false;
-            for (int j = 0; j < arr.length; j++) {
+            for (int j = 0 ; j < arr.length ; j++) {
                 if (i != j && arr[i] == arr[j]) {
                     isDuplicate = true;
                     break;
@@ -287,7 +287,7 @@ public class LinearSearchProblems {
         int[] arr = new int[num];
 
         System.out.print ("Enter the elements in the array => ");
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0 ; i < arr.length ; i++) {
             arr[i] = sc.nextInt ();
         }
 
@@ -325,85 +325,143 @@ public class LinearSearchProblems {
         }
     }
 
-    public static void copyReverse(){
-        int[]arr = new int[]{1,2,3};
+    public static void copyReverse ( ) {
+        int[] arr = new int[] {1 , 2 , 3};
         System.out.println ("your array");
-        for (int val : arr){
+        for (int val : arr) {
             System.out.println (val);
         }
         int length = arr.length;
-        int []rev = new int[length];
+        int[] rev = new int[length];
 
-        for (int i = 0; i < arr.length; i++) {
-            rev[i] = arr[arr.length-1-i];
+        for (int i = 0 ; i < arr.length ; i++) {
+            rev[i] = arr[arr.length - 1 - i];
         }
 
         System.out.println ("After copying element in reverse order");
-        for (int values : rev){
+        for (int values : rev) {
             System.out.println (
                     values
             );
         }
     }
 
-    public static void main ( String[] args ) {
-        while (true) {
-            printMenu();
-            int choice = readInt("Enter your choice (1-14):");
+    public static void ascendingOrderArray ( ) {
+        int num = readInt ("enter the size of array");
+        int[] arr = new int[num];
 
-            switch (choice) {
-                case 1 -> inputAndPrintArray();
-                case 2 -> findMinMax();
-                case 3 -> searchElement();
-                case 4 ->{
-                    int num = readInt ("Enter the size of array ");
-                    int []arr = new int[num];
-                    System.out.println ("Enter the value in the array");
-                    for (int i = 0; i < arr.length; i++) {
-                        arr[i] = sc.nextInt ();
-                    }
-                    System.out.print ("After revers your array is => ");
-                    reverseArray(0 , arr.length-1 , arr);
-                    for (int value : arr){
-                        System.out.print (" " + value);
-                    }
+        System.out.println ("enter the values in the array ");
+        for (int i = 0 ; i < arr.length ; i++) {
+            arr[i] = sc.nextInt ();
+        }
+        System.out.println ("before ascending your arrray is");
+        for (int value : arr) {
+            System.out.println (value);
+        }
+        for (int i = 0 ; i < arr.length ; i++) {
+            for (int j = i + 1 ; j < arr.length ; j++) {
+                if (arr[j] < arr[i]) {
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
                 }
-                case 5 -> findSecondMax();
-                case 6 -> generateFibonacci();
-                case 7 -> findMissingNumberMethod1();
-                case 8 -> findMissingNumberMethod2();
-                case 9 -> checkPalindrome();
-                case 10 -> findDuplicate();
-                case 11 -> findUniqueNumber();
-                case 12 -> rotateArray();
-                case 13 -> copyReverse();
-                case 14 -> {
-                    System.out.println("Exiting program...");
-                    return;
-                }
-                default -> System.out.println("Invalid choice! Please enter 1-14.");
             }
-            sc.nextLine();
+        }
+        System.out.println ("After ");
+        for (int value : arr) {
+            System.out.println (value);
         }
     }
 
-    private static void printMenu() {
-        System.out.println("\n===== Array Operations Menu =====");
-        System.out.println("1. Input and Print Array");
-        System.out.println("2. Find Min and Max in Array");
-        System.out.println("3. Search Element in Array");
-        System.out.println("4. Reverse Array");
-        System.out.println("5. Find Second Maximum");
-        System.out.println("6. Generate Fibonacci Sequence");
-        System.out.println("7. Find Missing Number (Method 1)");
-        System.out.println("8. Find Missing Number (Method 2)");
-        System.out.println("9. Check if Array is Palindrome");
-        System.out.println("10. Find Duplicate Number");
-        System.out.println("11. Find Unique Number");
-        System.out.println("12. Rotate Array");
-        System.out.println("13. Copy Array in Reverse");
-        System.out.println("14. Exit");
-        System.out.println("===============================");
+    public static void descendingOrderArray ( ) {
+        int num = readInt ("enter the size of array");
+        int[] arr = new int[num];
+
+        System.out.println ("enter the values in the array ");
+        for (int i = 0 ; i < arr.length ; i++) {
+            arr[i] = sc.nextInt ();
+        }
+        System.out.println ("before descending your arrray is");
+        for (int value : arr) {
+            System.out.println (value);
+        }
+        for (int i = 0 ; i < arr.length ; i++) {
+            for (int j = i + 1 ; j < arr.length ; j++) {
+                if (arr[j] > arr[i]) {
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+        System.out.println ("After ");
+        for (int value : arr) {
+            System.out.println (value);
+        }
+    }
+
+    public static void main ( String[] args ) {
+        while (true) {
+            printMenu ();
+            int choice = readInt ("Enter your choice (1-14):");
+
+            switch (choice) {
+                case 1 -> inputAndPrintArray ();
+                case 2 -> findMinMax ();
+                case 3 -> searchElement ();
+                case 4 -> {
+                    int num = readInt ("Enter the size of array ");
+                    int[] arr = new int[num];
+                    System.out.println ("Enter the value in the array");
+                    for (int i = 0 ; i < arr.length ; i++) {
+                        arr[i] = sc.nextInt ();
+                    }
+                    System.out.print ("After revers your array is => ");
+                    reverseArray (0 , arr.length - 1 , arr);
+                    for (int value : arr) {
+                        System.out.print (" " + value);
+                    }
+                }
+                case 5 -> findSecondMax ();
+                case 6 -> generateFibonacci ();
+                case 7 -> findMissingNumberMethod1 ();
+                case 8 -> findMissingNumberMethod2 ();
+                case 9 -> checkPalindrome ();
+                case 10 -> findDuplicate ();
+                case 11 -> findUniqueNumber ();
+                case 12 -> rotateArray ();
+                case 13 -> copyReverse ();
+                case 14 -> ascendingOrderArray ();
+                case 15 -> descendingOrderArray ();
+                case 16 -> {
+                    System.out.println ("Exiting program...");
+                    return;
+                }
+                default -> System.out.println ("Invalid choice! Please enter 1-14.");
+            }
+            sc.nextLine ();
+        }
+    }
+
+    private static void printMenu ( ) {
+        System.out.println ("\n===== Array Operations Menu =====");
+        System.out.println ("1. Input and Print Array");
+        System.out.println ("2. Find Min and Max in Array");
+        System.out.println ("3. Search Element in Array");
+        System.out.println ("4. Reverse Array");
+        System.out.println ("5. Find Second Maximum");
+        System.out.println ("6. Generate Fibonacci Sequence");
+        System.out.println ("7. Find Missing Number (Method 1)");
+        System.out.println ("8. Find Missing Number (Method 2)");
+        System.out.println ("9. Check if Array is Palindrome");
+        System.out.println ("10. Find Duplicate Number");
+        System.out.println ("11. Find Unique Number");
+        System.out.println ("12. Rotate Array");
+        System.out.println ("13. Copy Array in Reverse");
+        System.out.println ("14. ascendingOrderArray");
+        System.out.println ("15.descendingOrderArray ");
+        System.out.println ("16. Exit");
+        System.out.println ("===============================");
     }
 
 }

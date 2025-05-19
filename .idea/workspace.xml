@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9ffb0a2b-65ba-4dbd-9431-a645f403f296" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinearSearch/printArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinearSearch/printArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinearSearch/LinearSearchProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinearSearch/LinearSearchProblems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/LinearSearch/printArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/LinearSearch/printArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/LinearSearch/printArray.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
   "keyToString": {
     "Application.DSA.Loops.SimpleLetcodeProblem.Main.executor": "Run",
     "Application.LeapYearOrNot.executor": "Run",
+    "Application.LinearSearchProblems.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ReverseANumber.executor": "Run",
     "Application.Test.executor": "Run",
@@ -49,13 +50,26 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.printArray">
+  <component name="RunManager" selected="Application.LinearSearchProblems">
     <configuration name="DSA.Loops.SimpleLetcodeProblem.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSA.Loops.SimpleLetcodeProblem.Main" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DSA.Loops.SimpleLetcodeProblem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearSearchProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.LinearSearch.LinearSearchProblems" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.LinearSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,22 +116,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="printArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.LinearSearch.printArray" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DSA.LinearSearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.printArray" />
+        <item itemvalue="Application.LinearSearchProblems" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.fibonnaciSer" />
         <item itemvalue="Application.DSA.Loops.SimpleLetcodeProblem.Main" />
