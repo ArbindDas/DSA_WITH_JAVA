@@ -1,5 +1,5 @@
 package DSA.Sorting;
-
+import static DSA.Sorting.SwapClass.isSwap;
 public class SelectionSort {
     public static void printArray(int[]arr){
         for (int value : arr) {
