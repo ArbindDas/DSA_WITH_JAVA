@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ffb0a2b-65ba-4dbd-9431-a645f403f296" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinearSearch/LinearSearchProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinearSearch/LinearSearchProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/LinearSearch/LinearSearchProblems.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/LinearSearch/LinearSearchProblems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,7 @@
     "Application.LinearSearchProblems.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ReverseANumber.executor": "Run",
+    "Application.SelectionSort.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.fibonnaciSer.executor": "Run",
     "Application.printArray.executor": "Run",
@@ -49,13 +51,13 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LinearSearchProblems">
-    <configuration name="DSA.Loops.SimpleLetcodeProblem.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.Loops.SimpleLetcodeProblem.Main" />
+  <component name="RunManager" selected="Application.BubbleSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.Sorting.BubbleSort" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.Loops.SimpleLetcodeProblem.*" />
+          <option name="PATTERN" value="DSA.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.Loops.WhileLoop.ReverseANumber" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.Sorting.SelectionSort" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.Loops.WhileLoop.*" />
+          <option name="PATTERN" value="DSA.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.LinearSearchProblems" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.fibonnaciSer" />
-        <item itemvalue="Application.DSA.Loops.SimpleLetcodeProblem.Main" />
-        <item itemvalue="Application.ReverseANumber" />
       </list>
     </recent_temporary>
   </component>
