@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9ffb0a2b-65ba-4dbd-9431-a645f403f296" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/BinarySearchProblmes.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/BinarySearchProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/BinarySearch/BinarySearchProblmes.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +35,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.BinarySearchProblmes.executor": "Run",
+    "Application.BinarySearchProblems.executor": "Run",
+    "Application.BinarySearchProblmes.executor": "Debug",
     "Application.BubbleSort.executor": "Run",
     "Application.DSA.Loops.SimpleLetcodeProblem.Main.executor": "Run",
     "Application.InsertionSort.executor": "Debug",
@@ -51,9 +55,9 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BinarySearchProblmes">
-    <configuration name="BinarySearchProblmes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.BinarySearch.BinarySearchProblmes" />
+  <component name="RunManager" selected="Application.BinarySearchProblems">
+    <configuration name="BinarySearchProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.BinarySearch.BinarySearchProblems" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -119,7 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearchProblmes" />
+        <item itemvalue="Application.BinarySearchProblems" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
