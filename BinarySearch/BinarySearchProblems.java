@@ -98,6 +98,6 @@ public class BinarySearchProblems {
 
 //        searchKey ();
 //        findFirstAndLastPositionOfKey ();
-        OccuranceProblem();
+        searchInsertPosition();
     }
 }
