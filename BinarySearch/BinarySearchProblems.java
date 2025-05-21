@@ -72,9 +72,32 @@ public class BinarySearchProblems {
         }
     }
 
+    public static void searchInsertPosition(){
+        int[] arr = new int[]{1,2,4,6,8,10};
+        int key = 5;
+        int st = 0 , end = arr.length-1;
+        int index = 0;
+        int mid;
+        while (st<=end){
+            mid = (st+end)/2;
+            if (arr[mid] == key){
+                index  = mid;
+            }
+            else if (arr[mid] < key) {
+                st = mid + 1;
+            }
+            else if (arr[mid] > key) {
+                index  = mid;
+                end = mid - 1;
+            }
+        }
+        System.out.println ("the key is present at index : "+index);
+    }
+
     public static void main ( String[] args ) {
 
-        searchKey ();
+//        searchKey ();
 //        findFirstAndLastPositionOfKey ();
+        OccuranceProblem();
     }
 }
