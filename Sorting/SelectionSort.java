@@ -23,5 +23,7 @@ public class SelectionSort {
     public static void main ( String[] args ) {
         int [] arr = new int[]{4,5,3,2,1};
         isSelectionSort (arr);
+        //        Algorithm        Best Case	Average Case	Worst Case
+//             selection Sort 	O(n)	         O(n²)	    O(n²)
     }
 }

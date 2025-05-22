@@ -73,8 +73,8 @@ public class BinarySearchProblems {
     }
 
     public static void searchInsertPosition(){
-        int[] arr = new int[]{1,2,4,6,8,10};
-        int key = 5;
+        int[] arr = new int[]{4,5,8,11,13};
+        int key = 6;
         int st = 0 , end = arr.length-1;
         int index = 0;
         int mid;
@@ -94,10 +94,56 @@ public class BinarySearchProblems {
         System.out.println ("the key is present at index : "+index);
     }
 
+
+    public static void sqrtBinarySearch(int x) {
+        int st = 0, end = x, ans = -1;
+
+        while (st <= end) {
+            int mid = st + (end - st) / 2;
+
+            if (mid * mid == x) {
+                ans = mid;
+                break;
+            } else if (mid * mid < x) {
+                ans = mid; // Store potential answer
+                st = mid + 1;
+            } else {
+                end = mid - 1;
+            }
+        }
+
+        System.out.println("Square root (integer part) of " + x + " is: " + ans);
+    }
+
+    public static void PeakMountainProblem(){
+        int[]arr = new int[]{2,4,6,8,10,8,5};
+        int st = 1 , end = arr.length-2 , mid;
+        while (st<=end){
+            mid = st+(end-st)/2;
+            if ((arr[mid]>arr[mid-1] && arr[mid]>arr[mid+1])){
+                System.out.println ("the peak mountain index is present at : "+mid );
+                break;
+            }else if (arr[mid] < arr[mid-1]){
+                        end = mid - 1;
+            }else if (arr[mid] > arr[mid-1]) {
+                        st = mid + 1;
+            }
+        }
+//        int st = 1;                      // Second element
+//        int end = arr.length - 2;       // Second-to-last element
+
+//
+//        This guarantees that arr[mid - 1] and arr[mid + 1] are always valid.
+//                Because in a valid mountain array, the peak is never at index 0 or n - 1 — the
+//        array must go up then down, and the peak must be somewhere in the middle.
+    }
+
     public static void main ( String[] args ) {
 
 //        searchKey ();
 //        findFirstAndLastPositionOfKey ();
-        searchInsertPosition();
+//        searchInsertPosition();
+//        sqrtBinarySearch (10);
+//        PeakMountainProblem();
     }
 }

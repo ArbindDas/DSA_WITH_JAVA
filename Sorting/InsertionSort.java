@@ -6,6 +6,9 @@ public class InsertionSort {
     public static void main ( String[] args ) {
             int []arr = new int[]{45, 3, 2 , 5};
             isInsertionSort (arr);
+
+//        Algorithm        Best Case	Average Case	Worst Case
+//        Insertion Sort 	O(n)	         O(n²)	    O(n²)
     }
     public static void isInsertionSort(int []arr){
         for (int i = 1 ; i < arr.length ; i++) {

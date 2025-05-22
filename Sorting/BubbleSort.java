@@ -26,5 +26,7 @@ public class BubbleSort {
     public static void main ( String[] args ) {
        int []arr = new int[]{89 ,  34 , 1 , 4};
         isBubbleSort(arr);
+//        Algorithm	   Best Case	Average Case	Worst Case
+//        Bubble Sort  	O(n)	         O(n²)	     O(n²)
     }
 }
