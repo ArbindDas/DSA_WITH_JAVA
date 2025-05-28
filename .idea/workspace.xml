@@ -5,119 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ffb0a2b-65ba-4dbd-9431-a645f403f296" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/BinarySearchProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/BinarySearchProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Basics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Basics/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/BinarySearch/BinarySearchProblems.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/BinarySearch/BinarySearchProblems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/AbsoluteIntegerNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/AbsoluteIntegerNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/AreaofPerimeterGreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/AreaofPerimeterGreator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/DivisibileBy5orNot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/DivisibileBy5orNot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/DivisibilityCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/DivisibilityCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/Divisibleby5And3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/Divisibleby5And3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/EvenOddNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/EvenOddNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/GreatestNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/GreatestNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/LeapYearOrNot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/LeapYearOrNot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/NestedGreatest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/NestedGreatest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/Predication/Important.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/Predication/Important.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/Predication/Prediction1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/Predication/Prediction1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/Predication/predict2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/Predication/predict2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/Predication/predict3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/Predication/predict3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/Predication/predict4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/Predication/predict4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/ProfitLoss.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/ProfitLoss.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/RectangleSquareCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/RectangleSquareCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/ThreeDigitNumberOrNot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/ThreeDigitNumberOrNot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/TriangleSidesCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/TriangleSidesCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/VowelOrConsonant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/VowelOrConsonant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/practice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/printmyname.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/IfElse/printmyname.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/SwitchStatement/ATM_Operations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/SwitchStatement/ATM_Operations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/SwitchStatement/Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/SwitchStatement/Print.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/TernaryOPerator/ternary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/TernaryOPerator/ternary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/TwoDIgitNumberOrNOt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/ConditionalStatement/TwoDIgitNumberOrNOt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/FunWithCodding/ATM_Operations$BalanceOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/FunWithCodding/ATM_Operations$BalanceOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/FunWithCodding/ATM_Operations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/FunWithCodding/ATM_Operations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/FunWithCodding/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/FunWithCodding/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Function/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Function/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Java_Basics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Java_Basics/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/LinearSearch/LinearSearchProblems.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/LinearSearch/LinearSearchProblems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/LinearSearch/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/DoWhieLoop/printNaturalNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/DoWhieLoop/printNaturalNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForEachLoop/printArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForEachLoop/printArr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForEachLoop/withList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForEachLoop/withList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/ContinueStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/ContinueStatement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/EvenOddPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/EvenOddPrint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/FactorOFN_Number.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/FactorOFN_Number.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Factorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Factorial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/Ap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/Ap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/ArmStrongNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/ArmStrongNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/CountDigit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/CountDigit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/GP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/GP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/NthfibNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/NthfibNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/PrimeOr_CompositeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/PrimeOr_CompositeNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/SecGP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/SecGP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/fibonnaciSer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/fibonnaciSer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/printPrimeNUmbertoN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Medium/printPrimeNUmbertoN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Nto1Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Nto1Print.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Print1toN_numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/Print1toN_numbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/PrintEvenNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/PrintEvenNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/SumofN_number.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/SumofN_number.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/TableOfGivenNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/TableOfGivenNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/primeSEcMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/primeSEcMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/printPrime1toN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/printPrime1toN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/sumOfN_WIthMath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/ForLoop/sumOfN_WIthMath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/CutesetQuestions/Mast.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/CutesetQuestions/Mast.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/CutesetQuestions/MastTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/CutesetQuestions/MastTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/CutesetQuestions/Rhombus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/CutesetQuestions/Rhombus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/CutesetQuestions/starPyramid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/CutesetQuestions/starPyramid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/CutesetQuestions/star_pyramid_MethodTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/CutesetQuestions/star_pyramid_MethodTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/HollowRectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/HollowRectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/MastPattern/One_Zero_triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/MastPattern/One_Zero_triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/MastPattern/one_zero_triangle_m_three.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/MastPattern/one_zero_triangle_m_three.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/MastPattern/start_cross.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/MastPattern/start_cross.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/MastPattern/start_pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/MastPattern/start_pattern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/MastPattern/zero_one_triangle_m_Two.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/MastPattern/zero_one_triangle_m_Two.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/NumberSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/NumberSquare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/SolidQuestionPattern/Alphabet_Triangle_reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/SolidQuestionPattern/Alphabet_Triangle_reverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/SolidQuestionPattern/numbrt_triangle_reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/SolidQuestionPattern/numbrt_triangle_reverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/SolidQuestionPattern/starNumberTriangleContinuosPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/SolidQuestionPattern/starNumberTriangleContinuosPrint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/SolidQuestionPattern/starNumberTriangleNto1Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/SolidQuestionPattern/starNumberTriangleNto1Print.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/SolidQuestionPattern/star_triangle_reverse_two.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/SolidQuestionPattern/star_triangle_reverse_two.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/SolidQuestionPattern/startTriangle_Reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/SolidQuestionPattern/startTriangle_Reverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/SolidRectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/SolidRectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/Star.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/Star.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/StringPatterns/AlphabetAndNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/StringPatterns/AlphabetAndNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/StringPatterns/AlphabetSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/StringPatterns/AlphabetSquare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/StringPatterns/AlphabetTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/StringPatterns/AlphabetTriangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/StringPatterns/HollowRectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/StringPatterns/HollowRectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/floydsOddTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/floydsOddTriangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/floydsTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/floydsTriangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/numberTriangleInverted.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/numberTriangleInverted.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/oddNumberTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/oddNumberTriangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/solidSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/solidSquare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/starNumberTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/starNumberTriangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/starTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/starTriangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/starTriangleInverted.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Nested_Or_Pattern_Printing/starTriangleInverted.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/SimpleLetcodeProblem/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/SimpleLetcodeProblem/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/SimpleLetcodeProblem/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/SimpleLetcodeProblem/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Swapping/firstMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Swapping/firstMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Swapping/secondMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Swapping/secondMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Swapping/thirdMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/Swapping/thirdMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/WhileLoop/CountDIgit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/WhileLoop/CountDIgit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/WhileLoop/InfinityLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/WhileLoop/InfinityLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/WhileLoop/PrintNaturalNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/WhileLoop/PrintNaturalNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/WhileLoop/ReverseANumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/WhileLoop/ReverseANumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/WhileLoop/palindromeOrNot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/WhileLoop/palindromeOrNot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/WhileLoop/predict1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/WhileLoop/predict1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/WhileLoop/predict3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/WhileLoop/predict3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/WhileLoop/predict4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Loops/WhileLoop/predict4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/NumberSystem/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/NumberSystem/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Sorting/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Sorting/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Sorting/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Sorting/InsertionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Sorting/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Sorting/SelectionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Sorting/SwapClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Sorting/SwapClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,36 +30,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BinarySearchProblems.executor": "Run",
-    "Application.BinarySearchProblmes.executor": "Debug",
-    "Application.BubbleSort.executor": "Run",
-    "Application.DSA.Loops.SimpleLetcodeProblem.Main.executor": "Run",
-    "Application.DSA.Test.Main.executor": "Run",
-    "Application.InsertionSort.executor": "Debug",
-    "Application.LeapYearOrNot.executor": "Run",
-    "Application.LinearSearchProblems.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Practice.executor": "Run",
-    "Application.ReverseANumber.executor": "Run",
-    "Application.SelectionSort.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.fibonnaciSer.executor": "Run",
-    "Application.printArray.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/arbinddas/Desktop/online-pharmacy-management",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BinarySearchProblems.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearchProblmes.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DSA.Loops.SimpleLetcodeProblem.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DSA.Test.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsertionSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LeapYearOrNot.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearSearchProblems.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseANumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fibonnaciSer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.printArray.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/arbinddas/Desktop/online-pharmacy-management&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.DSA.Test.Main">
     <configuration name="BinarySearchProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSA.BinarySearch.BinarySearchProblems" />
@@ -240,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DSA.Test.Main" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DSA.Test.Main" />
         <item itemvalue="Application.BinarySearchProblems" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>

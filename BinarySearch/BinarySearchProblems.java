@@ -210,6 +210,6 @@ public class BinarySearchProblems {
 //        sqrtBinarySearch (10);
 //        PeakMountainProblem();
 //        findTheOcc();
-//        findMinRotatedArray();
+       findMinRotatedArray();
     }
 }
