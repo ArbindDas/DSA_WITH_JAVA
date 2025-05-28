@@ -138,6 +138,70 @@ public class BinarySearchProblems {
 //        array must go up then down, and the peak must be somewhere in the middle.
     }
 
+    public static void findTheOcc() {
+        int[] arr = new int[]{2, 3, 5, 7, 7, 7, 7};
+        int target = 7;
+
+        int first = -1, last = -1;
+        int st = 0, end = arr.length - 1, mid;
+
+        while (st <= end) {
+            mid = st + (end - st) / 2;
+            if (arr[mid] == target) {
+                first = mid;
+                end = mid - 1;
+            } else if (arr[mid] > target) {
+                end = mid - 1;
+            } else {
+                st = mid + 1;
+            }
+        }
+
+        st = 0;
+        end = arr.length - 1;
+
+
+        while (st <= end) {
+            mid = st + (end - st) / 2;
+            if (arr[mid] == target) {
+                last = mid;
+                st = mid + 1;
+            } else if (arr[mid] > target) {
+                end = mid - 1;
+            } else {
+                st = mid + 1;
+            }
+        }
+
+        if (first != -1 && last != -1) {
+            int count = last - first + 1;
+            System.out.println("The target value occurred: " + count + " times");
+        } else {
+            System.out.println("Target not found");
+        }
+//        count = last - first + 1
+    }
+
+
+    public static void findMinRotatedArray(){
+        int[] arr = {4, 5, 6, 7, 1, 2};
+        int st = 0, end = arr.length - 1, mid;
+        int min = arr[0];
+        while (st<=end) {
+            mid = st+(end-st)/2;
+
+            if (arr[mid] < min){
+                min = arr[mid];
+                end = mid -1;
+            } else if (arr[mid] > min) {
+                st = mid + 1;
+            }else {
+                end = mid -1;
+            }
+        }
+        System.out.println(min);
+    }
+
     public static void main ( String[] args ) {
 
 //        searchKey ();
@@ -145,5 +209,7 @@ public class BinarySearchProblems {
 //        searchInsertPosition();
 //        sqrtBinarySearch (10);
 //        PeakMountainProblem();
+//        findTheOcc();
+//        findMinRotatedArray();
     }
 }
