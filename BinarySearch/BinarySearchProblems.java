@@ -202,6 +202,41 @@ public class BinarySearchProblems {
         System.out.println(min);
     }
 
+
+    public static void searchInRotatedArray(){
+        int[] arr = {4, 5, 6, 7, 0, 1, 2};
+        int st = 0, end = arr.length - 1, mid;
+        int target = 4;
+        int ans = -1;
+        while (st<=end){
+
+            mid = st+(end-st)/2;
+            if (arr[mid] == target){
+                ans = mid;
+                break;
+            }
+            // left side sorted
+            else if (arr[mid] > arr[0]) {
+                if ((arr[st]<=target)&& arr[mid]>=target){
+                    end = mid -1;
+                }else {
+                    st = mid + 1;
+                }
+            }
+            // right side sorted
+            else {
+                if (arr[mid]<target && arr[end]>=target){
+                        st = mid + 1;
+                }else {
+                    end = mid - 1;
+                }
+            }
+        }
+        if (ans!=-1){
+            System.out.println(ans);
+        }
+
+    }
     public static void main ( String[] args ) {
 
 //        searchKey ();
@@ -210,6 +245,7 @@ public class BinarySearchProblems {
 //        sqrtBinarySearch (10);
 //        PeakMountainProblem();
 //        findTheOcc();
-       findMinRotatedArray();
+//       findMinRotatedArray();
+        searchInRotatedArray();
     }
 }
