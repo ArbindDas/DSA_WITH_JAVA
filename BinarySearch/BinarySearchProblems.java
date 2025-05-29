@@ -206,7 +206,7 @@ public class BinarySearchProblems {
     public static void searchInRotatedArray(){
         int[] arr = {4, 5, 6, 7, 0, 1, 2};
         int st = 0, end = arr.length - 1, mid;
-        int target = 4;
+        int target = 1;
         int ans = -1;
         while (st<=end){
 
