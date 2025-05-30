@@ -206,7 +206,7 @@ public class BinarySearchProblems {
     public static void searchInRotatedArray(){
         int[] arr = {4, 5, 6, 7, 0, 1, 2};
         int st = 0, end = arr.length - 1, mid;
-        int target = 1;
+        int target = 2;
         int ans = -1;
         while (st<=end){
 
@@ -225,7 +225,7 @@ public class BinarySearchProblems {
             }
             // right side sorted
             else {
-                if (arr[mid]<target && arr[end]>=target){
+                if (arr[mid]<=target && arr[end]>=target){
                         st = mid + 1;
                 }else {
                     end = mid - 1;
@@ -237,6 +237,27 @@ public class BinarySearchProblems {
         }
 
     }
+
+    public static void findKthMissingPosNumber(){
+        int []arr = {2,3,4,7,11,12};
+        int k = 5;
+        int st = 0 , end = arr.length-1 , ans = arr.length , mid;
+
+        while (st<=end){
+
+            mid = st+(end-st)/2;
+
+            if (arr[mid]-mid-1 >= k){
+                ans = mid;
+                end = mid -1;
+            }else {
+                st  = mid + 1;
+            }
+        }
+
+        int fAns = ans + k;
+        System.out.println("the kth postive missing number is : "+fAns);
+    }
     public static void main ( String[] args ) {
 
 //        searchKey ();
@@ -246,6 +267,7 @@ public class BinarySearchProblems {
 //        PeakMountainProblem();
 //        findTheOcc();
 //       findMinRotatedArray();
-        searchInRotatedArray();
+//        searchInRotatedArray();
+        findKthMissingPosNumber();
     }
 }
