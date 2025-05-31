@@ -8,9 +8,18 @@ public class MediumBinarySearchProblems {
     public static void bookAllocationProblem() {
 
         int[] arr = new int[]{12, 34, 67, 90};
+        int m = 2;
+
+        int n = arr.length;
         int sum = Arrays.stream(arr).sum();
-        int st = 90, end = sum, mid;
+        int max = Arrays.stream(arr).max().getAsInt();
+        int st = max, end = sum, mid;
         int ans = 0;
+
+        if (m > n){
+            System.out.println("can't do this minimize your student "+m);
+            return;
+        }
 
         while ( st <= end ) {
 
@@ -19,7 +28,7 @@ public class MediumBinarySearchProblems {
             count += 1;
 
             mid = st + (end - st) / 2;
-            for ( int i = 0; i < arr.length; i++ ) {
+            for ( int i = 0; i < n; i++ ) {
 
                 pages += arr[ i ];
 
@@ -29,7 +38,7 @@ public class MediumBinarySearchProblems {
                 }
             }
 
-            if (count <= 2) {
+            if (count <= m) {
                 ans = mid;
                 end = mid - 1;
             } else {
@@ -41,10 +50,6 @@ public class MediumBinarySearchProblems {
     }
 
     public static void main(String[] args) {
-//        bookAllocationProblem();
-
-
-
-
+            bookAllocationProblem();
     }
 }
