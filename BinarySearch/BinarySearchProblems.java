@@ -268,6 +268,6 @@ public class BinarySearchProblems {
 //        findTheOcc();
 //       findMinRotatedArray();
 //        searchInRotatedArray();
-        findKthMissingPosNumber();
+//        findKthMissingPosNumber();
     }
 }

@@ -1,8 +1,6 @@
 package DSA.LinearSearch;
 
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 public class LinearSearchProblems {
 
@@ -438,7 +436,7 @@ public class LinearSearchProblems {
     public static void main ( String[] args ) {
         while (true) {
             printMenu ();
-            int choice = readInt ("Enter your choice (1-14):");
+            int choice = readInt ("Enter your choice (1-18):");
 
             switch (choice) {
                 case 1 -> inputAndPrintArray ();
@@ -470,7 +468,11 @@ public class LinearSearchProblems {
                 case 15 -> descendingOrderArray ();
                 case 16 -> sumOfArray();
                 case 17 -> productOfArray();
-                case 18-> {
+                case 18 -> {
+                    List<Integer> duplicates = findListOfDuplicateNumber();
+                    System.out.println("Duplicate numbers: " + duplicates);
+                }
+                case 19 -> {
                     System.out.println ("Exiting program...");
                     return;
                 }
@@ -499,8 +501,27 @@ public class LinearSearchProblems {
         System.out.println ("15.descendingOrderArray ");
         System.out.println ("16.sumOfArray ");
         System.out.println ("17.productOfArray ");
-        System.out.println ("18. Exit");
+        System.out.println ("18. findListOfDuplicateNumber ");
+        System.out.println ("19. Exit");
         System.out.println ("===============================");
+    }
+
+    public static List<Integer>findListOfDuplicateNumber(){
+
+        int arr[] = new int[]{4, 3, 2, 7, 8, 2, 3, 1};
+
+        List<Integer>duplicate = new ArrayList<>();
+
+        Set<Integer>seen = new HashSet<>();
+
+        for ( int values : arr ){
+            if (seen.contains(values)){
+                duplicate.add(values);
+            }else {
+                seen.add(values);
+            }
+        }
+        return duplicate;
     }
 }
 
