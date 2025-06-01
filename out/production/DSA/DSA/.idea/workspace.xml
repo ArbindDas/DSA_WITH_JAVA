@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ffb0a2b-65ba-4dbd-9431-a645f403f296" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BinarySearch/MediumBinarySearchProblems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/BinarySearchProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/BinarySearchProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/BinarySearch/BinarySearchProblems.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/BinarySearch/BinarySearchProblems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/MediumBinarySearchProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/MediumBinarySearchProblems.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,7 @@
     &quot;Application.DSA.Test.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.InsertionSort.executor&quot;: &quot;Debug&quot;,
     &quot;Application.LeapYearOrNot.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearSearchProblems.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearSearchProblems.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.MediumBinarySearchProblems.executor&quot;: &quot;Run&quot;,
     &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
@@ -79,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.Basics.Main" />
+    <configuration name="LinearSearchProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.LinearSearch.LinearSearchProblems" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.Basics.*" />
+          <option name="PATTERN" value="DSA.LinearSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,10 +131,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MediumBinarySearchProblems" />
+        <item itemvalue="Application.LinearSearchProblems" />
         <item itemvalue="Application.BinarySearchProblems" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
