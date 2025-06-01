@@ -3,7 +3,7 @@ import static DSA.Sorting.SwapClass.isSwap;
 public class SelectionSort {
     public static void printArray(int[]arr){
         for (int value : arr) {
-            System.out.println (value);
+            System.out.print (value + " ");
         }
     }
     public static void  isSelectionSort(int []arr){

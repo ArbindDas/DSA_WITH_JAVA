@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ffb0a2b-65ba-4dbd-9431-a645f403f296" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Revision.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/MediumBinarySearchProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/MediumBinarySearchProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/BinarySearch/MediumBinarySearchProblems.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/BinarySearch/MediumBinarySearchProblems.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,7 @@
     "Application.MediumBinarySearchProblems.executor": "Run",
     "Application.Practice.executor": "Run",
     "Application.ReverseANumber.executor": "Run",
+    "Application.Revision.executor": "Run",
     "Application.SelectionSort.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.Test.executor": "Run",
@@ -62,7 +66,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MediumBinarySearchProblems">
+  <component name="RunManager" selected="Application.Revision">
     <configuration name="BinarySearchProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSA.BinarySearch.BinarySearchProblems" />
       <module name="DSA" />
@@ -102,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.Test.Practice" />
+    <configuration name="Revision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.Revision" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.Test.*" />
+          <option name="PATTERN" value="DSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Revision" />
         <item itemvalue="Application.MediumBinarySearchProblems" />
         <item itemvalue="Application.LinearSearchProblems" />
         <item itemvalue="Application.BinarySearchProblems" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -147,5 +151,26 @@
       <updated>1746861979600</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sorting/InsertionSort.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sorting/InsertionSort.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sorting/InsertionSort.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

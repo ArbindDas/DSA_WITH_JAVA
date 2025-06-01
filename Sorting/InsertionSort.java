@@ -4,7 +4,7 @@ import static DSA.Sorting.SelectionSort.printArray;
 
 public class InsertionSort {
     public static void main ( String[] args ) {
-            int []arr = new int[]{45, 3, 2 , 5};
+            int []arr = new int[]{7,4,2,3,5};
             isInsertionSort (arr);
 
 //        Algorithm        Best Case	Average Case	Worst Case
