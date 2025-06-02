@@ -43,7 +43,8 @@ public class HardLevelProblems {
             int pos = arr[0];
 
             for (int i = 1; i < n; i++) {
-                if (arr[i] - pos >= mid) {
+
+                if (pos+mid <=arr[i]){
                     count++;
                     pos = arr[i];
                 }

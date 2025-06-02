@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ffb0a2b-65ba-4dbd-9431-a645f403f296" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BinarySearch/HardLevelProblems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/BinarySearchProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/BinarySearchProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/Revision.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/Revision.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/HardLevelProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/HardLevelProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/DSA/BinarySearch/HardLevelProblems.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/DSA/BinarySearch/HardLevelProblems.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
