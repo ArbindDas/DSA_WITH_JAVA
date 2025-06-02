@@ -263,7 +263,7 @@ public class BinarySearchProblems {
 //        searchKey ();
 //        findFirstAndLastPositionOfKey ();
 //        searchInsertPosition();
-//        sqrtBinarySearch (10);
+        sqrtBinarySearch (10);
 //        PeakMountainProblem();
 //        findTheOcc();
 //       findMinRotatedArray();
