@@ -1,12 +1,8 @@
 package DSA;
 
-import javax.security.sasl.SaslClient;
-
-import java.util.Scanner;
-
 import static DSA.Sorting.SelectionSort.printArray;
 
-public class Revision {
+public class Revisions {
 
     public static void selectionSorting(){
         int []arr = {5,2,8,1,3};
