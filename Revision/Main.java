@@ -37,7 +37,7 @@ public class Main {
         if (num % 10 == 7) {
             System.out.println("The last digit of " + num + " is 7.");
         } else {
-            System.out.println("The last digit of " + num + " is not 7.");
+            System.out.println("The last digit of " + num + " is not    7.");
         }
     }
 }
